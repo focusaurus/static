@@ -1,0 +1,7 @@
+Site by Peter Lyons. Visual Design by [Carly Gloge](http://warb.co/).
+
+#Neckbeard info
+* Site is coded in jade, markdown, and html templates
+* stylus is used for CSS preprocessing
+* app runs the express.js framework on node.js
+* blogs were originally wordpress but is a home-grown blog platform
