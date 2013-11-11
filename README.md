@@ -1,1 +1,1 @@
-static assets for [http://peterlyons.com]()
+static assets for [http://peterlyons.com](http://peterlyons.com)
