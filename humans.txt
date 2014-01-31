@@ -1,7 +1,22 @@
-Site by Peter Lyons. Visual Design by [Carly Gloge](http://warb.co/).
+Site by Peter Lyons. Visual Design by [Emphasis Creative](http://emphasiscreative.com).
 
-#Neckbeard info
-* Site is coded in jade, markdown, and html templates
+# Technology Stack
+
+* JavaScript, node.js, and express.js power the application server
+* jade, markdown, and html are used for templating
 * stylus is used for CSS preprocessing
-* app runs the express.js framework on node.js
-* blogs were originally wordpress but is a home-grown blog platform
+* some pages are [AngularJS](http://angularjs.org/) single-page applications
+* blog platform is home-grown and stores content in a git repository as markdown with json metadata
+* There is no jQuery in use. All vanilla ECMAScript5/HTML5 standard plus some AngularJS
+* all JavaScript modules are coded as CommonJS/node.js modules. Browser code bundled via browserify.
+* mocha and karma are used for test frameworks
+
+# Deployment
+
+* Ubuntu digital ocean droplet
+* nginx as reverse proxy
+* devops automation with Ansible, Vagrant, and bash
+
+# Open Source
+
+* Source code is freely available at [https://github.com/focusaurus/peterlyons.com](github.com/focusaurus/peterlyons.com)
